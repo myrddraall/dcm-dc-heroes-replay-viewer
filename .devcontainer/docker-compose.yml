@@ -10,8 +10,6 @@ services:
     # workers) get reaped instead of accumulating as unkillable zombies.
     init: true
     user: "node"
-    ports:
-      - "3700:3700"
     environment:
       - DEV_LOCAL=true
     env_file:
