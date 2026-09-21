@@ -4,7 +4,6 @@
   "service": "heroes-replay-viewer",
   "workspaceFolder": "/devcontainer/workspaces",
   "initializeCommand": "dcm dc initialize",
-  "forwardPorts": [3700],
   "containerEnv": {
     "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}/repos",
     "DEVCONTAINER_REPOS_FOLDER": "${localWorkspaceFolder}/repos",
