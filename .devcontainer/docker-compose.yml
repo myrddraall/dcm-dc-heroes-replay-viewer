@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  heroes-replay-viewer:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: heroes-replay-viewer
+    # Run tini as PID 1 so orphaned child processes (e.g. esbuild/ng build
+    # workers) get reaped instead of accumulating as unkillable zombies.
+    init: true
+    user: "node"
+    ports:
+      - "3700:3700"
+    environment:
+      - DEV_LOCAL=true
+    env_file:
+      - ".github.token.env"
+    volumes:
+      - ..:/devcontainer:cached
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 8G
+        reservations:
+          cpus: '2'
+          memory: 4G
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 65535
+        hard: 65535
+

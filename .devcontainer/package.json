@@ -1,0 +1,14 @@
+{
+    "name": "@myrddraall/dcm-dc-heroes-replay-viewer",
+    "private": true,
+    "version": "1.0.1",
+    "scripts": {
+        "dc-postCreateCommand": "pnpm config set -g \"//npm.pkg.github.com/:_authToken\" \"$GITHUB_TOKEN\"",
+        "repo-run-s": "pnpm run -r --workspace-concurrency=1",
+        "repo-run-p": "pnpm run -r --workspace-concurrency=0",
+        "repo-exec-s": "pnpm -rc --workspace-concurrency=1 exec",
+        "repo-exec-p": "pnpm -rc --workspace-concurrency=0 exec",
+        "start": "pnpm run repo-run-p start",
+        "stop": "pnpm run repo-run-p stop"
+    }
+}

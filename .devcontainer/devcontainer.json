@@ -1,0 +1,25 @@
+{
+  "name": "Heroes Replay Viewer",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "heroes-replay-viewer",
+  "workspaceFolder": "/devcontainer/workspaces",
+  "initializeCommand": "dcm dc initialize",
+  "forwardPorts": [3700],
+  "containerEnv": {
+    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}/repos",
+    "DEVCONTAINER_REPOS_FOLDER": "${localWorkspaceFolder}/repos",
+    "DEV_LOCAL": "true",
+    "WIREIT_LOGGER": "simple"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "csharpier.csharpier-vscode",
+        "anthropic.claude-code"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  }
+}

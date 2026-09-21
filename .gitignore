@@ -1,0 +1,7 @@
+repos/*
+!repos/.gitkeep
+.pnpm-store
+node_modules
+.devcontainer/.github.token.env
+.claude-config
+*.log
