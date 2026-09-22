@@ -6,17 +6,17 @@
             "repository": "https://github.com/myrddraall/heroesbrowser-replay-viewer.git"
         },
         {
+            "name": "heroesbrowser-mpq",
+            "path": "../repos/heroesbrowser-mpq",
+            "repository": "https://github.com/myrddraall/heroesbrowser-mpq.git"
+        },
+        {
             "name": "=== Workspaces ===",
             "path": "."
         },
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
-        },
-        {
-            "name": "heroesbrowser-mpq",
-            "path": "../repos/heroesbrowser-mpq",
-            "repository": "https://github.com/myrddraall/heroesbrowser-mpq.git"
         }
     ]
 }
