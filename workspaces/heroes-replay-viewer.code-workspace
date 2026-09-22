@@ -11,17 +11,17 @@
             "repository": "https://github.com/myrddraall/heroesbrowser-mpq.git"
         },
         {
+            "name": "heroesbrowser-heroprotocol",
+            "path": "../repos/heroesbrowser-heroprotocol",
+            "repository": "https://github.com/myrddraall/heroesbrowser-heroprotocol.git"
+        },
+        {
             "name": "=== Workspaces ===",
             "path": "."
         },
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
-        },
-        {
-            "name": "heroesbrowser-heroprotocol",
-            "path": "../repos/heroesbrowser-heroprotocol",
-            "repository": "https://github.com/myrddraall/heroesbrowser-heroprotocol.git"
         }
     ]
 }
