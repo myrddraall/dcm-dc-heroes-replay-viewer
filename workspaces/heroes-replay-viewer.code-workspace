@@ -1,17 +1,17 @@
 {
     "folders": [
         {
-            "name": "=== Workspaces ===",
-            "path": "/devcontainer/workspaces"
-        },
-        {
-            "name": "=== Dev Container Settings ===",
-            "path": "/devcontainer/.devcontainer"
-        },
-        {
             "name": "heroesbrowser-replay-viewer",
             "path": "../repos/heroesbrowser-replay-viewer",
             "repository": "https://github.com/myrddraall/heroesbrowser-replay-viewer.git"
+        },
+        {
+            "name": "=== Workspaces ===",
+            "path": "."
+        },
+        {
+            "name": "=== Dev Container Settings ===",
+            "path": "../.devcontainer"
         }
     ]
 }
