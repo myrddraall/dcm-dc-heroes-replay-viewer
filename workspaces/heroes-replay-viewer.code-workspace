@@ -17,6 +17,11 @@
         {
             "name": "=== Dev Container Settings ===",
             "path": "../.devcontainer"
+        },
+        {
+            "name": "heroesbrowser-heroprotocol",
+            "path": "../repos/heroesbrowser-heroprotocol",
+            "repository": "https://github.com/myrddraall/heroesbrowser-heroprotocol.git"
         }
     ]
 }
