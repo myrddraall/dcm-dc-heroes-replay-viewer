@@ -16,6 +16,15 @@
             "repository": "https://github.com/myrddraall/mpq.git"
         },
         {
+            "name": "heroprotocol",
+            "path": "../repos/heroprotocol",
+            "repository": "https://github.com/myrddraall/heroprotocol.git"
+        },
+        {
+            "name": "heroes-replay-stats",
+            "path": "../repos/heroes-replay-stats"
+        },
+        {
             "name": "=== Workspaces ===",
             "path": "."
         },
