@@ -22,7 +22,8 @@
         },
         {
             "name": "heroes-replay-stats",
-            "path": "../repos/heroes-replay-stats"
+            "path": "../repos/heroes-replay-stats",
+            "repository": "https://github.com/myrddraall/heroes-replay-stats.git"
         },
         {
             "name": "=== Workspaces ===",
