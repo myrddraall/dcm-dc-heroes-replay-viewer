@@ -26,6 +26,11 @@
             "repository": "https://github.com/myrddraall/heroes-replay-stats.git"
         },
         {
+            "name": "heroes-capture",
+            "path": "../repos/heroes-capture",
+            "repository": "https://github.com/myrddraall/heroes-capture.git"
+        },
+        {
             "name": "=== Workspaces ===",
             "path": "."
         },
