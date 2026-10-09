@@ -31,6 +31,11 @@
             "repository": "https://github.com/myrddraall/heroes-capture.git"
         },
         {
+            "name": "heroes-maps",
+            "path": "../repos/heroes-maps",
+            "repository": "https://github.com/myrddraall/heroes-maps.git"
+        },
+        {
             "name": "=== Workspaces ===",
             "path": "."
         },
