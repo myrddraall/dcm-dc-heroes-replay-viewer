@@ -12,6 +12,8 @@ services:
     user: "node"
     environment:
       - DEV_LOCAL=true
+      # Playwright's browsers, kept on the mounted volume so a rebuild doesn't remove them.
+      - PLAYWRIGHT_BROWSERS_PATH=/devcontainer/.devcontainer/.data/ms-playwright
     env_file:
       - ".github.token.env"
     volumes:
