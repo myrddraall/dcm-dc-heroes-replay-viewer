@@ -19,11 +19,11 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '4'
-          memory: 8G
+          cpus: '8'
+          memory: 32G
         reservations:
           cpus: '2'
-          memory: 4G
+          memory: 12G
     ulimits:
       nproc: 65535
       nofile:
