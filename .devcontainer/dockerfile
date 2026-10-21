@@ -24,3 +24,7 @@ RUN mkdir -p /home/node/.local/share /home/node/.cache \
  && ln -s /devcontainer/.devcontainer/.data/ms-playwright /home/node/.cache/ms-playwright \
  && chown -R node:node /home/node/.local /home/node/.cache
 USER node
+
+# Language servers for Claude Code's LSP plugins (typescript-lsp, pyright-lsp). A project's own
+# node_modules/typescript wins over the global one.
+RUN npm i -g typescript-language-server@6.0.1 typescript@6.0.3 pyright@1.1.414
